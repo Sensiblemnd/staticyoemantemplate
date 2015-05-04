@@ -1,0 +1,106 @@
+# staticyoemantemplate
+Description
+===========
+Static scaffolding tool based on yoeman to start projects. It includes 
+
+
+
+Requirements
+------------
+* Node
+* NPM
+* Grunt
+* Ruby
+* SASS
+
+Folder Structure
+----------------
+```
+/app            // Main static html template.
+--/fonts          // Fonts.
+--/images         // Images.
+--/scripts             // jQuery used by styleguide.
+--/styles           // Sass source.
+--/fonts            // fontsFolder.
+/dist            // folder created by using $ grunt build.
+/node_modules     // Folder created when running $ npm install
+/bower_components     // Folder created when running $ bower install
+/test              // testing Javascript
+
+```
+
+
+Install node.js
+---------------
+Reference: http://nodejs.org/
+Go to the node.js website and click the Install button.
+
+Check to see if node.js installed properly...
+
+```
+#!unix
+
+$ node -v
+```
+
+
+Install grunt.js
+----------------
+Reference: http://gruntjs.com/getting-started#installing-the-cli
+
+```
+#!unix
+
+$ sudo npm install -g grunt-cli
+```
+
+
+Install bower
+----------------
+Reference: http://bower.io/#install-bower
+
+```
+#!unix
+
+$ npm install -g bower
+
+
+
+Install node.js Dependencies / Modules
+--------------------------------------
+From within the cloned repository...
+
+```
+#!unix
+
+$ npm install
+```
+
+
+Install SASS
+----------------------------
+Reference: http://sass-lang.com/install
+From within the cloned repository...
+
+```
+#!unix
+
+$ gem install sass
+```
+
+Using yoeman
+------------------------
+Reference: http://yeoman.io/learning/
+
+```
+#!unix
+# Preview an app you have generated (with browsersync).
+$ grunt serve
+# or with more info on the terminal.
+$ grunt serve --verbose 
+$ grunt test
+$ grunt build  //build the static site. Creates a dist folder for production.
+
+```
+
+

@@ -1,0 +1,10 @@
+{
+  "name": "staticyoemantemplate",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "modernizr": "~2.8.2",
+    "css3-mediaqueries-js": "~1.0.0"
+  },
+  "devDependencies": {}
+}
