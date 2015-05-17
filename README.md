@@ -1,7 +1,7 @@
 # staticyoemantemplate
 Description
 ===========
-Static scaffolding tool based on yoeman to start projects. It includes 
+First Financial Bank static build
 
 
 
@@ -38,7 +38,6 @@ Go to the node.js website and click the Install button.
 Check to see if node.js installed properly...
 
 ```
-#!unix
 
 $ node -v
 ```
@@ -49,7 +48,6 @@ Install grunt.js
 Reference: http://gruntjs.com/getting-started#installing-the-cli
 
 ```
-#!unix
 
 $ sudo npm install -g grunt-cli
 ```
@@ -60,7 +58,6 @@ Install bower
 Reference: http://bower.io/#install-bower
 
 ```
-#!unix
 
 $ npm install -g bower
 
@@ -71,8 +68,6 @@ Install node.js Dependencies / Modules
 From within the cloned repository...
 
 ```
-#!unix
-
 $ npm install
 ```
 
@@ -83,8 +78,6 @@ Reference: http://sass-lang.com/install
 From within the cloned repository...
 
 ```
-#!unix
-
 $ gem install sass
 ```
 
@@ -92,15 +85,27 @@ Using yoeman
 ------------------------
 Reference: http://yeoman.io/learning/
 
-```
-#!unix
-# Preview an app you have generated (with browsersync).
+
+Using browsersync
+------------------------
+Reference: hhttp://www.browsersync.io/
+
+
+
+start the server to preview static pages
+------------------------
+install bower components: bower install
+install nmp dependencies: sudo npm install
+
+Preview an app you have generated (with browsersync).
 $ grunt serve
-# or with more info on the terminal.
+or with more info on the terminal.
 $ grunt serve --verbose 
 $ grunt test
 $ grunt build  //build the static site. Creates a dist folder for production.
 
 ```
+
+
 
 
