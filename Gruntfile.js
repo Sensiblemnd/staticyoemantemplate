@@ -378,8 +378,9 @@ browserSync: {
   files: {
       src : [
       '<%= config.app %>/{,*/}*.html',
-          '.tmp/styles/{,*/}*.css',
-          '<%= config.app %>/images/{,*/}*'
+			'<%= config.app %>/scripts/{,*/}*',
+			'.tmp/styles/*.css',
+			'<%= config.app %>/images/{,*/}*'
       ]
     },
     options: {
